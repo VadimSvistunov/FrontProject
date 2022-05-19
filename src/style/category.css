@@ -1,0 +1,38 @@
+.genre {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+.music {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 440px;
+    box-shadow: 0px 8px 12px #ddd;
+    background: #fafafa;
+    transition: 0.5s;
+    text-align: center;
+    padding: 1em 2% 1em;
+}
+
+.hmisuc:hover {
+    cursor: pointer;
+    box-shadow: 0px 16px 20px #ddd;
+}
+
+.imgMusic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.descriptionGenre {
+    color: black;
+}
+
+.browse {
+    color: black;
+    text-align: left;
+}

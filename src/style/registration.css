@@ -1,0 +1,11 @@
+.login {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+
+.acc
+ {
+     width: 350px;
+     height: 350px;
+ }
