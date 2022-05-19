@@ -7,7 +7,6 @@ import Footer from './footer'
 import { useState, useEffect, useRef } from 'react'
 import axios from 'axios';
 import Modal from '../components/modal';
-import Music from '../music/music.mp3'
 import MusicPlayerSlider from '../components/player'
 
 export default function TemplateForGenre() {
