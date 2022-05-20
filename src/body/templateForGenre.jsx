@@ -8,6 +8,7 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios';
 import Modal from '../components/modal';
 import MusicPlayerSlider from '../components/player'
+import BtnMusics from '../components/btnadd'
 
 export default function TemplateForGenre() {
     const [music, setMusic] = useState()
@@ -26,9 +27,6 @@ export default function TemplateForGenre() {
         setActive(true)
     }
     console.log(music)
-    // const playing = () => {
-    //     audioEl.current.play()
-    // }
 
     return (<>
         <div className='wrapper'>
@@ -37,10 +35,8 @@ export default function TemplateForGenre() {
                 <button onClick={onSubHAndler}> delete </button>
             ):( <p>ds</p>
             ))} */}
-            {/* <div className='item' style={{ display: 'grid', gridAutoRows: 'repeat(12,1fr)' }}>
-                <p id="inner" style={{ color: 'black', width: '100px' }}></p>
-            </div> */}
-            <button onClick={() => submitModalAddMusic()}>add music</button>
+
+            <button onClick={() => submitModalAddMusic()} ><BtnMusics></BtnMusics></button>
             {music?.musics.map((item, index) => {
                 return (
                     <>

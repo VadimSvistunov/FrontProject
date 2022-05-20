@@ -10,10 +10,6 @@ export default function registration() {
     <div className = 'wrapper'>
             <div className = 'login'>
                 <div className = 'acc'>
-                    <p style = {{color:'black' , textAlign:'left'}}>Register as creator</p>
-                    <FormRegM></FormRegM>
-                </div>
-                <div className = 'acc'>
                     <p style = {{color:'black' , textAlign:'left'}}>Register as user </p>
                     <FormRegU></FormRegU>
                 </div>

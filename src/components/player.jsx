@@ -53,25 +53,25 @@ export default function MusicPlayerSlider({ item, index }) {
                         aria-label="kick"
                         onMouseDown={() => play({ id: 'kick' })}
                     >
-                        1
+                        KICK
                     </Button>
                     <Button
                         aria-label="hihat"
                         onMouseDown={() => play({ id: 'hihat' })}
                     >
-                        2
+                        HITHAT
                     </Button>
                     <Button
                         aria-label="snare"
                         onMouseDown={() => play({ id: 'snare' })}
                     >
-                        3
+                        SNARE
                     </Button>
                     <Button
                         aria-label="cowbell"
                         onMouseDown={() => play({ id: 'cowbell' })}
                     >
-                        4
+                        COWBELL
                     </Button>
                 </CardActions>
             </Card>
