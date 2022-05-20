@@ -35,7 +35,7 @@ export default function ButtonAppBar() {
             <Button style = {{margin: '10px'}}variant="contained" {...bindTrigger(popupState)}>
             Royalty Free Music 
             </Button>
-          <PopupState variant="popover" popupId="demo-popup-menu">
+          {/* <PopupState variant="popover" popupId="demo-popup-menu">
       {(popupState) => (
         <React.Fragment>
           <Button variant="contained" {...bindTrigger(popupState)}>
@@ -57,7 +57,7 @@ export default function ButtonAppBar() {
           </Menu>
         </React.Fragment>
       )}
-    </PopupState>
+    </PopupState> */}
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           
           

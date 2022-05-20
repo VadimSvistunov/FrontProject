@@ -33,11 +33,11 @@ function Body() {
                                             <BtnMusics></BtnMusics>
                                         </Link>
                                     </div>
-                                    <div className='btnFreeSongs'>
+                                    {/* <div className='btnFreeSongs'>
                                         <Link to="/sound-effects-for-videos">
                                             <BtnSongs ></BtnSongs>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

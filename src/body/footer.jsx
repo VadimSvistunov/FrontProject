@@ -40,7 +40,7 @@ export default function footer() {
                     <div style = {{position: 'absolute', top:'0', left:'50%', marginLeft: '-50vw', width: '100vw', height: '1px', backgroundColor: 'white'}}></div>
                 </div>
                 <div className = 'wrapper'>
-                    <p>OpenGameMusic.com by FenomeN. Copyright © 2021-2021 All rights reserved.</p>
+                    <p>OpenGameMusic.com by OnyxFenBigSmoke. Copyright © 2021-2022 All rights reserved.</p>
                 </div>
             </div>
             <div>
