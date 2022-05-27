@@ -42,7 +42,6 @@ export default function TemplateForGenre() {
                 return (
                     <> 
                     {item.genre === genre.split('/').pop() ? <MusicPlayerSlider item = {item} index = {index} /> : <div className="h3">not found genre</div> }
-                        
                     </>
                 );
             })}

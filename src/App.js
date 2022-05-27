@@ -42,13 +42,13 @@ function App() {
           {/* <Route path="/login" element={<Login/>}/>
                 <Route path="/registration" element={<Reg/>}/> */}
           <Route path="/royalty-free-music" element={<MusicCategory />} />
-          <PrivateRoute path="/royalty-free-music/action-and-trailer" element={<TMP />} />
-          <Route path="/royalty-free-music/epic-and-orchestral" element={<TMP />} />
-          <Route path="/royalty-free-music/rock-and-energetic" element={<TMP />} />
-          <Route path="/royalty-free-music/electronic-and-edm" element={<TMP />} />
-          <Route path="/royalty-free-music/easy-listening-music" element={<TMP />} />
-          <Route path="/royalty-free-music/acoustic-and-piano" element={<TMP />} />
-          <Route path="/royalty-free-music/game-music" element={<TMP />} />
+          <PrivateRoute path="/royalty-free-music/pop" element={<TMP />} />
+          <Route path="/royalty-free-music/epic" element={<TMP />} />
+          <Route path="/royalty-free-music/rock" element={<TMP />} />
+          <Route path="/royalty-free-music/electronic" element={<TMP />} />
+          <Route path="/royalty-free-music/easy" element={<TMP />} />
+          <Route path="/royalty-free-music/acoustic" element={<TMP />} />
+          <Route path="/royalty-free-music/game" element={<TMP />} />
           <Route path="/royalty-free-music/movie" element={<TMP />} />
           <Route path="/sound-effects-for-videos/" element={<SoundCategory />} />
           <Route path="/sound-effects-for-videos/riser-and-crescendo" element={<SoundCategory />} />

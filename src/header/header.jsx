@@ -89,25 +89,25 @@ export default function ButtonAppBar() {
           ))}
           
           <Menu {...bindMenu(popupState)}>
-          <Link href="/royalty-free-music/action-and-trailer" underline="none" color="inherit" >
-            <MenuItem onClick={popupState.close}>Action / Trailer Music</MenuItem>
+          <Link href="/royalty-free-music/pop" underline="none" color="inherit" >
+            <MenuItem onClick={popupState.close}>POP / Trailer Music</MenuItem>
             </Link>
-            <Link href="/royalty-free-music/epic-and-orchestral" underline="none" color="inherit" >
+            <Link href="/royalty-free-music/epic" underline="none" color="inherit" >
             <MenuItem onClick={popupState.close}>Epic / Orchestral Music</MenuItem>
             </Link>
-            <Link href="/royalty-free-music/rock-and-energetic" underline="none" color="inherit" >
+            <Link href="/royalty-free-music/rock" underline="none" color="inherit" >
             <MenuItem onClick={popupState.close}>Indie Rock / Energetic Music</MenuItem>
             </Link>
-            <Link href="/royalty-free-music/electronic-and-edm" underline="none" color="inherit" >
+            <Link href="/royalty-free-music/electronic" underline="none" color="inherit" >
             <MenuItem onClick={popupState.close}>Electronic / EDM / Synth Music</MenuItem>
             </Link>
-            <Link href="/royalty-free-music/easy-listening-music" underline="none" color="inherit" >
+            <Link href="/royalty-free-music/easy" underline="none" color="inherit" >
             <MenuItem onClick={popupState.close}>Easy Listening Music</MenuItem>
             </Link>
-            <Link href="/royalty-free-music/acoustic-and-piano" underline="none" color="inherit" >
+            <Link href="/royalty-free-music/acoustic" underline="none" color="inherit" >
             <MenuItem onClick={popupState.close}>Acoustic / Piano Music</MenuItem>
             </Link>
-            <Link href="/royalty-free-music/game-music" underline="none" color="inherit" >
+            <Link href="/royalty-free-music/game" underline="none" color="inherit" >
             <MenuItem onClick={popupState.close}>Video Game Music</MenuItem>
             </Link>
             <Link href="/royalty-free-music/movie" underline="none" color="inherit" >
