@@ -9,10 +9,10 @@ export default function LetterAvatars() {
   
   const firstName = auth?.user.user.firstName;
   const lastName = auth?.user.user.lastName;
-  console.log(auth.user.firstName)
+  
   return (
     <Stack direction="row" spacing={2}>
-      <Avatar sx={{ bgcolor: deepOrange[500] }}>{firstName.toString().substr(0,1)} {lastName.toString().substr(0,1)}</Avatar>
+      <Avatar sx={{ bgcolor: deepOrange[500] }}>{firstName?.toString().substr(0,1)} {lastName?.toString().substr(0,1)}</Avatar>
     </Stack>
   );
 }

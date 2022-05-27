@@ -7,6 +7,7 @@ import axios from 'axios';
 import Modal from '../components/modal';
 import MusicPlayerSlider from '../components/player'
 import BtnMusics from '../components/btnadd'
+import useAuth from '../hooks/useAuth'
 
 export default function TemplateForGenre() {
     const [music, setMusic] = useState()
@@ -15,6 +16,7 @@ export default function TemplateForGenre() {
     const audioEl = useRef(null);
     const url = useLocation();
     const genre = url.pathname
+    const auth = useAuth()    
 
 
     useEffect(() => {
@@ -36,12 +38,12 @@ export default function TemplateForGenre() {
                 <button onClick={onSubHAndler}> delete </button>
             ):( <p>ds</p>
             ))} */}
+            {auth.isLoaded && auth.user ? (<button onClick={() => submitModalAddMusic()} style={{border:"none", backgroundColor:"white"}} ><BtnMusics></BtnMusics></button>) : ""}
 
-            <button onClick={() => submitModalAddMusic()} style={{border:"none", backgroundColor:"white"}} ><BtnMusics></BtnMusics></button>
             {music?.musics.map((item, index) => {
                 return (
                     <> 
-                    {item.genre === genre.split('/').pop() ? <MusicPlayerSlider item = {item} index = {index} /> : <div className="h3">not found genre</div> }
+                    {item.genre === genre.split('/').pop().toLowerCase() ? <MusicPlayerSlider item = {item} index = {index} /> : ""}
                     </>
                 );
             })}
